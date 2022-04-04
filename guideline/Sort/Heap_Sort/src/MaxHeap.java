@@ -54,7 +54,7 @@ public class MaxHeap {
 
         // 자식 중에 본인보다 큰 애가 있으면 , swap 해준 뒤에 ,
         // 바꾼 다음에 또 힙의 조건을 만족 안할 수도 있으니까 , 하위 노드로 내려가면서 다시 heapify
-        if(arr[max] < arr[k]){
+        if(arr[max] > arr[k]){
             swap(arr , max , k);
             heapify(arr , max , n);
         }
