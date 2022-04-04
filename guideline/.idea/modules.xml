@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bubble_Sort/Bubble_Sort.iml" filepath="$PROJECT_DIR$/Bubble_Sort/Bubble_Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Counting_Sort/Counting_Sort.iml" filepath="$PROJECT_DIR$/Counting_Sort/Counting_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heap_Sort/Heap_Sort.iml" filepath="$PROJECT_DIR$/Heap_Sort/Heap_Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Insertion_Sort/Insertion_Sort.iml" filepath="$PROJECT_DIR$/Insertion_Sort/Insertion_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Merge_Sort/Merge_Sort.iml" filepath="$PROJECT_DIR$/Merge_Sort/Merge_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quick_Sort/Quick_Sort.iml" filepath="$PROJECT_DIR$/Quick_Sort/Quick_Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Selection_Sort/Selection_Sort.iml" filepath="$PROJECT_DIR$/Selection_Sort/Selection_Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/guideline.iml" filepath="$PROJECT_DIR$/.idea/guideline.iml" />
     </modules>
