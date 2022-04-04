@@ -39,7 +39,7 @@ public class Main {
             c[a[i]]--;
         }
 
-        // 정렬된 배열을 출력 
+        // 정렬된 배열을 출력
         System.out.println(Arrays.toString(b));
     }
 }

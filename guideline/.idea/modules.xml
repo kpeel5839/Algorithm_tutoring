@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bubble_Sort/Bubble_Sort.iml" filepath="$PROJECT_DIR$/Bubble_Sort/Bubble_Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Counting_Sort/Counting_Sort.iml" filepath="$PROJECT_DIR$/Counting_Sort/Counting_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Insertion_Sort/Insertion_Sort.iml" filepath="$PROJECT_DIR$/Insertion_Sort/Insertion_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Selection_Sort/Selection_Sort.iml" filepath="$PROJECT_DIR$/Selection_Sort/Selection_Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/guideline.iml" filepath="$PROJECT_DIR$/.idea/guideline.iml" />
     </modules>
   </component>
