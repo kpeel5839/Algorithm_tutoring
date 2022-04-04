@@ -1,4 +1,4 @@
-# Heap Sort
+# Merge Sort
 
 ### 평균 경우 O(n * lon2(n)) 속도의 정렬 알고리즘
 

@@ -1,6 +1,6 @@
-# quick Sort
+# Quick Sort
 
-### O(n * log2(n)) 의 정렬 알고리즘
+### 평균 경우 O(n * lon2(n)) , 최악의 경우 O(n ^ 2) 의 정렬 알고리즘
 
 - 입력
 ```
