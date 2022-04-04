@@ -31,6 +31,7 @@ public class Main {
             a[max] = tmp;
         }
 
+        // 결과 출력
         System.out.println(Arrays.toString(a));
     }
 }
