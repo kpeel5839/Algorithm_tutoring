@@ -29,7 +29,12 @@ public class Main {
             // i 이전까지 진행 (j + 1 , j 를 비교하기에 , i 와 같아지면 안됨
             for(int j = 0; j < i; j++){
                 // 현재 요소가 , 다음 요소보다 크면 swap
-                if(a[j] > a[j + 1]) swap(a , j , j + 1);
+                if(a[j] > a[j + 1]) {
+                    swap(a , j , j + 1);
+
+                    // 교환이 일어났으면 swap 을 true 로 갱신
+                    swap = true;
+                }
             }
 
             // swap 이 한번도 일어나지 않았으면 break;
