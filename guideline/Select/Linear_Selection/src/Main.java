@@ -44,6 +44,7 @@ public class Main {
         // 찾은 값의 index 를 구하고 partition 에다가 그 index를 넘겨서 해당 pivotValue를 기준원소로 삼음
         int q = partition(arr , p , r , findIndex(arr , pivotValue , p , r));
 
+        System.out.println("q : " + q);
         // 기준 원소가 몇번째로 큰 수인지 확인
         int k = q - p + 1;
 
