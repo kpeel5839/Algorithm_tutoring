@@ -44,7 +44,9 @@ public class Main {
         // 찾은 값의 index 를 구하고 partition 에다가 그 index를 넘겨서 해당 pivotValue를 기준원소로 삼음
         int q = partition(arr , p , r , findIndex(arr , pivotValue , p , r));
 
-        System.out.println("q : " + q);
+        // 기준 값 출력
+        System.out.println(pivotValue);
+
         // 기준 원소가 몇번째로 큰 수인지 확인
         int k = q - p + 1;
 
@@ -133,9 +135,15 @@ public class Main {
         int N = input.nextInt();
         int[] arr = new int[N];
 
+
         // arr 원소 입력 받기
+//        for(int i = 0; i < N; i++){
+//            arr[i] = input.nextInt();
+//        }
+
+        // 입력을 받는 것이 아닌 오름차순으로 값을 입력하였을 떄에는?
         for(int i = 0; i < N; i++){
-            arr[i] = input.nextInt();
+            arr[i] = i;
         }
 
         // 찾는 수의 번째수를 입력한다.

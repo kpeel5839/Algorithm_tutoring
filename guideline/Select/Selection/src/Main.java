@@ -23,6 +23,7 @@ public class Main {
         // partition 을 통해서 왼쪽은 작은 애들 , 오른쪽은 큰 애들로 분류하게 된다.
         int q = partition(arr , p , r);
 
+        System.out.println(q);
         // 기준 원소가 지금 p ~ r 에서 몇번째로 큰놈인지를 정의한다.
         int k = q - p + 1;
 
@@ -70,9 +71,15 @@ public class Main {
         int N = input.nextInt();
         int[] arr = new int[N];
 
+        // 0 1 2 3 4 5 6 7 8 9 10 ..... 10000
         // arr 원소 입력 받기
+//        for(int i = 0; i < N; i++){
+//            arr[i] = input.nextInt();
+//        }
+
+        // 오름차순으로 입력을 받는다고 생각(엄청 큰 사이즈)
         for(int i = 0; i < N; i++){
-            arr[i] = input.nextInt();
+            arr[i] = i;
         }
 
         // 찾는 수의 번째수를 입력한다.
