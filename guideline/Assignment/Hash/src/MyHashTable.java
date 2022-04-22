@@ -59,7 +59,7 @@ public class MyHashTable {
         this.m *= 2;
         Node[] newTable = new Node[this.m];
 
-        for(Node node : this.table) {
+        for (Node node : this.table) {
 
             // node 가 null 이라면 continue
             if (node == null) {
@@ -123,7 +123,7 @@ public class MyHashTable {
         boolean result = false;
 
         // 해당 address 가 비어있으면 시도 조차 x
-        if(table[address] != null) {
+        if (table[address] != null) {
 
             // 시작 노드를 얻음
             Node cur = table[address];
